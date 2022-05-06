@@ -21,3 +21,6 @@ The function evaluateModel takes as input a data loader object and a model, and 
 The function trainandtestNeuralNet takes as input a set of training examples, test examples, training labels, test labels, number of classes (2 for binary classfication), number of epochs, learning rate, batch size, neurons per hidden layer and the number of hidden layers. It trains the neural network parametrized by the input arguments and returns as ouput the classfication accuracy of the trained neural network on the test data set.
 
 The function validationneuralNet takes as input a set of training data, with labels, number of epochs, learning rate, batch size, neurons per hidden layer and number of hidden layers. It performs k fold cross valudation with k=10 and returns the mean classification accuracy over the 10 folds. The number of passes that the function makes through each training set of a single fold is given by the input argument number of epochs.
+
+#File nnettraining.py
+This is a python script which we used to perform hyper-parameter tuning on our neural network. It takes a significant amount of time to execute depending on the underlying system and generates the plots of classification accuracies against different learning rates, number of epochs, batch sizes, number of neurons per hidden layer and number of hidden layers. 
