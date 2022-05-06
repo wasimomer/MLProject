@@ -1,5 +1,5 @@
 # MLProject
-Machine Learning Project for CS 6140 @ Northeastern
+Machine Learning Project for CS 6140 @ Northeastern. The data set diabetes _ binary _ 5050split _ health _ indicators _ BRFSS2015.csv in this repository is obtained from https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?select=diabetes_binary_health_indicators_BRFSS2015.csv.
 
 # File unified.py
 The file unified.py consists of a list of implementations and cross validation methods for the following classifiers: SVM, Naive Bayes, Logistic Regression, and Decision Trees. 
