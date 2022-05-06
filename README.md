@@ -22,5 +22,5 @@ The function trainandtestNeuralNet takes as input a set of training examples, te
 
 The function validationneuralNet takes as input a set of training data, with labels, number of epochs, learning rate, batch size, neurons per hidden layer and number of hidden layers. It performs k fold cross valudation with k=10 and returns the mean classification accuracy over the 10 folds. The number of passes that the function makes through each training set of a single fold is given by the input argument number of epochs.
 
-#File nnettraining.py
+# File nnettraining.py
 This is a python script which we used to perform hyper-parameter tuning on our neural network. It takes a significant amount of time to execute depending on the underlying system and generates the plots of classification accuracies against different learning rates, number of epochs, batch sizes, number of neurons per hidden layer and number of hidden layers. 
